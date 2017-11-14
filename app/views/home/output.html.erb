@@ -1,0 +1,26 @@
+<div style="margin: 0 auto; width: 80%;">
+  <h1>결과 화면 테스트</h1>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>id</th>
+        <th>Subject Name</th>
+        <th>Professor</th>
+        <th>time</th>
+        <th>place</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @all_info.each do |t| %>
+        <tr>
+          <th scope="row"><%= t.id %></th>
+          <td><%= t.subject_name%></</td>
+          <td><%= t.professor %></td>
+          <td><%= t.time %></td>
+          <td><%= t.place %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
