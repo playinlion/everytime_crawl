@@ -5,11 +5,14 @@
 
 everytime 유저 아이디와 패스워드를 입력하면 해당 유저의 학교 시간표를 쇽쇽
 
-#### 사용법
+#### 사용 전 세팅
 1. https://sites.google.com/a/chromium.org/chromedriver/downloads 크롬 드라이버 다운로드
-2. 크롬 드라이버 경로 설정
-3. 로그인
-4. 유저 정보에 등록된 학교의 에브리타임 시간표 추출
+2. HomeController > def output - line 18. 크롬 드라이버 경로 설정
+
+#### 사용법
+1. 에브리타임 계정으로 로그인
+2. 유저 정보에 등록된 학교의 에브리타임 시간표 전체 추출, DB 저장
+3. info 모델
 
 ***
 ### 개선이 필요한 사항
